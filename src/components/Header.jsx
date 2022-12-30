@@ -1,4 +1,3 @@
-import React from 'react'
 import { Tb3DCubeSphere } from 'react-icons/tb'
 
 const Header = () => {
@@ -8,7 +7,7 @@ const Header = () => {
     shadow-lg fixed top-0 left-0 right-0'
     >
         <a href='#'>
-            <span>GenesisFund</span>
+            <span>Genesis</span>
             <Tb3DCubeSphere />
         </a>
     </header>
