@@ -1,4 +1,5 @@
 import { Tb3DCubeSphere } from 'react-icons/tb'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -6,10 +7,15 @@ const Header = () => {
     p-5 bg-white text-gray-500 hover:text-gray-700
     shadow-lg fixed top-0 left-0 right-0'
     >
-        <a href='#' className='flex-justify-start items-center text-xl text-black space-x-7'>
+        <Link 
+          to="/" 
+          className='flex-justify-start items-center 
+        text-xl text-black space-x-7'
+        >
             <span>Genesis</span>
             <Tb3DCubeSphere />
-        </a>
+        </Link>
+
 
         <div className='flex space-x-2 justify-center'>
           <button type='button'
